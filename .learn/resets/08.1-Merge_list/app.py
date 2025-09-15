@@ -4,11 +4,6 @@ chunk_two = ['Lucas', 'Jake', 'Scott', 'Amy', 'Molly', 'Hannah', 'Lucas']
 
 def merge_list(list1, list2):
     # Your code here
-    merge_list = []
-    for item in list1:
-        merge_list.append(item)
-    for item in list2:
-        merge_list.append(item)
-    return merge_list
+
     
 print(merge_list(chunk_one, chunk_two))
